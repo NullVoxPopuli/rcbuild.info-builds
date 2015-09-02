@@ -1,18 +1,24 @@
-{"version": 1,
- "config": {
-    "frame" : "",
-    "arm" : "",
-    "fc" : "",
-    "osd" : "",
-    "receiver" : "",
-    "flightcam" : "",
-    "hqcam" : "",
-    "esc" : "",
-    "motor" : "",
-    "videotx" : "",
-    "blackbox" : "",
-    "voltagereg" : "",
-    "prop" : [],
-    "battery" : []
-  }
+{
+  "config": {
+    "frame": "ImpulseRC/Warpquad-230mm",
+    "esc": "Flyduino/KISS-18A",
+    "motor": "T-Motor/MN2206-2000kv",
+    "fc": "MotoLab/MotoF3",
+    "prop": [
+      "Gemfan/6045-Props-(Nylon)",
+      "HQProp/6x4.5-Props"
+    ],
+    "arm": "ImpulseRC String Theory -  5x12mm Arm (for 230mm Frame)",
+    "battery": [
+      "Turnigy/nano-tech-1000mAh-4S-45~90C-Lipo-Pack"
+    ],
+    "osd": "",
+    "receiver": "Lemon-Rx/Satellite-Receiver-DSMX",
+    "flightcam": "",
+    "hqcam": "",
+    "videotx": "",
+    "blackbox": "ImpulseRC MotoF3 Built in",
+    "voltagereg": ""
+  },
+  "version": 1
 }
